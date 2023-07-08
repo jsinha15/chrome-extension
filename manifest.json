@@ -1,0 +1,15 @@
+{
+    "manifest_version" : 3,
+    "version": "1.0",
+    "name": "My Extension",
+    "description": "",
+    "action" : {
+        "default_popup":"index.html",
+        "default-icon" : "leadtracker.png"
+    },
+    "permissions":[ "tabs"],
+    "web_accessible_resources": [{
+        "matches": ["<all_urls>"],
+        "resources": ["icon.png"]
+    }]
+}
